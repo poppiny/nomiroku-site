@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>飲み録 プライバシーポリシー / NomiRoku Privacy Policy</title>
+  <meta name="description" content="飲み録（NomiRoku）のプライバシーポリシー。録音も文字起こしも端末の外に出ません。">
+  <style>
+    :root { --night:#1c1541; --night2:#2a1848; --lantern:#ff8c42; --beer:#ffc947; --foam:#fff5db; --ink:#f6f3ff; --dim:rgba(246,243,255,.72); }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Zen Maru Gothic",system-ui,sans-serif; background:radial-gradient(ellipse at 50% 0%, var(--night2), var(--night) 60%); color:var(--ink); line-height:1.8; }
+    header { padding:56px 20px 24px; text-align:center; }
+    .logo { font-size:44px; font-weight:900; background:linear-gradient(135deg,var(--lantern),var(--beer)); -webkit-background-clip:text; background-clip:text; color:transparent; display:inline-block; }
+    .sub { color:var(--dim); margin-top:6px; font-size:15px; }
+    main { max-width:760px; margin:0 auto; padding:8px 20px 80px; }
+    .card { background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.14); border-radius:24px; padding:28px 28px 8px; margin:18px 0; }
+    h1 { font-size:26px; margin:0 0 4px; }
+    h2 { font-size:19px; margin:26px 0 8px; color:var(--beer); }
+    h3 { font-size:16px; margin:18px 0 6px; }
+    p, li { font-size:15.5px; }
+    ul { padding-left:1.2em; }
+    table { width:100%; border-collapse:collapse; font-size:14.5px; margin:8px 0 18px; }
+    th, td { text-align:left; padding:8px 10px; border-bottom:1px solid rgba(255,255,255,.12); vertical-align:top; }
+    th { color:var(--dim); font-weight:700; white-space:nowrap; }
+    .meta { color:var(--dim); font-size:14px; }
+    .pill { display:inline-block; font-size:12px; font-weight:900; padding:4px 10px; border-radius:999px; background:rgba(102,237,204,.18); color:#66edcc; margin-right:6px; }
+    a { color:var(--beer); }
+    nav a { margin:0 10px; font-size:14px; }
+    footer { text-align:center; color:var(--dim); font-size:13px; padding:20px; }
+    hr { border:0; border-top:1px dashed rgba(255,255,255,.2); margin:30px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">飲み録 🍻</div>
+    <div class="sub">プライバシーポリシー / Privacy Policy</div>
+    <nav><a href="./">サポート / Support</a><a href="#en">English</a></nav>
+  </header>
+  <main>
+    <div class="card">
+      <h1>飲み録 プライバシーポリシー</h1>
+      <p class="meta">最終更新日: 2026年9月20日 ／ 適用対象: iOS アプリ「飲み録」（NomiRoku）</p>
+      <p><span class="pill">録音は保存しない</span><span class="pill">サーバーなし</span><span class="pill">広告・解析なし</span></p>
+      <p>飲み録（以下「本アプリ」）は、飲み会の会話を iPhone の中だけで解析し、議事録・発言統計・NGワード集計を作成するアプリです。本アプリは開発者のサーバーを持たず、ユーザーの情報を収集・送信しません。</p>
+
+      <h2>1. 取り扱う情報と処理場所</h2>
+      <table>
+        <tr><th>情報</th><th>用途</th><th>保存場所と寿命</th></tr>
+        <tr><td>マイク音声</td><td>話者判定と端末内音声認識</td><td>端末のメモリ上のみ。ディスクに書き込まず、処理後（最大 60 秒以内）に破棄</td></tr>
+        <tr><td>文字起こしテキスト</td><td>統計・NGワード判定・要約の生成</td><td>生成直後に破棄。保存も表示もしない</td></tr>
+        <tr><td>声の特徴ベクトル</td><td>参加者の声を識別</td><td>セッション終了時に破棄</td></tr>
+        <tr><td>参加者名（手入力）</td><td>結果の表示</td><td>議事録・統計とともに端末内に保存</td></tr>
+        <tr><td>議事録・統計・NGワード結果</td><td>あとから見返す・共有する</td><td>端末内のみ。ユーザーが削除するまで保持</td></tr>
+      </table>
+
+      <h2>2. 端末外への送信</h2>
+      <ul>
+        <li>本アプリはユーザーのデータをインターネットへ送信しません。要約には Apple の端末内モデル（Apple Intelligence）を使用し、Apple のサーバーへも送られません。</li>
+        <li>初回起動時に、Apple の音声認識アセットと、話者判定用の公開 CoreML モデル（Hugging Face 上で配布）をダウンロードします。この通信に個人情報は含まれません。</li>
+        <li>「共有」機能は、ユーザーが明示的に選んだ議事録テキストを、ユーザーが選んだアプリへ渡すだけです。</li>
+      </ul>
+
+      <h2>3. 第三者サービス・広告・解析</h2>
+      <p>広告 SDK、アクセス解析 SDK、クラッシュレポート SDK、トラッキングは一切使用していません。App Store の「App のプライバシー」では「データを収集していません」と申告しています。</p>
+
+      <h2>4. マイクの使用</h2>
+      <p>マイクは収録中の会話解析のためだけに使用します。iOS の設定からいつでも許可を取り消せます。</p>
+
+      <h2>5. 同席者への配慮</h2>
+      <p>飲み会の参加者には、本アプリで会話を解析することを事前に伝え、同意を得たうえでご利用ください。会話の内容そのものは保存されませんが、発言時間や NG ワードの回数は集計されます。</p>
+
+      <h2>6. 子どもの利用</h2>
+      <p>本アプリは飲酒を伴う場面を想定しており、App Store では 18 歳以上向けとして配信しています。</p>
+
+      <h2>7. 変更</h2>
+      <p>本ポリシーを変更する場合は、このページで公開し、更新日を改めます。</p>
+
+      <h2>8. お問い合わせ</h2>
+      <p>開発者: Yu Iwata ／ <a href="https://github.com/poppiny/NomiRoku/issues">GitHub Issues</a> または <a href="mailto:yu.iwata.ds@gmail.com">yu.iwata.ds@gmail.com</a></p>
+    </div>
+
+    <hr>
+
+    <div class="card" id="en">
+      <h1>NomiRoku Privacy Policy</h1>
+      <p class="meta">Last updated: September 20, 2026 — applies to the iOS app “飲み録 (NomiRoku)”.</p>
+      <p>NomiRoku analyses drinking-party conversations entirely on the device to produce minutes, talk-time statistics and a secret-word tally. The app has no server of its own and does not collect or transmit user data.</p>
+
+      <h2>1. Data we handle</h2>
+      <ul>
+        <li><strong>Microphone audio</strong> is processed in memory for speaker identification and on-device speech recognition. It is never written to disk and is discarded within seconds.</li>
+        <li><strong>Transcribed text</strong> is generated on device (Apple SpeechAnalyzer), consumed for statistics, secret-word counting and summarisation, then discarded. It is never stored or shown.</li>
+        <li><strong>Voice embeddings</strong> used to tell participants apart are discarded when the session ends.</li>
+        <li><strong>Participant names</strong> (typed by the user), <strong>minutes, statistics and secret-word results</strong> are stored only on the device until the user deletes them.</li>
+      </ul>
+
+      <h2>2. Network</h2>
+      <p>The only network traffic is the one-time download of Apple speech assets and public CoreML speaker models. No personal data is included. Summaries are generated by Apple's on-device model and are not sent to any server.</p>
+
+      <h2>3. Third parties</h2>
+      <p>No advertising, analytics, crash-reporting or tracking SDKs are used. On the App Store the app is declared as “Data Not Collected”.</p>
+
+      <h2>4. Microphone</h2>
+      <p>The microphone is used only to analyse the conversation while a session is recording. You can revoke access at any time in iOS Settings.</p>
+
+      <h2>5. Other people at the table</h2>
+      <p>Please inform the people around you that the conversation is being analysed and obtain their consent before use. Spoken content is not stored, but talk time and secret-word counts are.</p>
+
+      <h2>6. Contact</h2>
+      <p>Yu Iwata — <a href="https://github.com/poppiny/NomiRoku/issues">GitHub Issues</a> or <a href="mailto:yu.iwata.ds@gmail.com">yu.iwata.ds@gmail.com</a></p>
+    </div>
+  </main>
+  <footer>© 2026 Yu Iwata — 飲み録 / NomiRoku</footer>
+</body>
+</html>
